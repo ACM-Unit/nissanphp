@@ -1,3 +1,4 @@
+<?php $title = 'NISSAN'?>
 <?php include("header.html"); ?>
 
     <link rel="stylesheet" href="/css/flexslider.css" type="text/css"
@@ -374,13 +375,13 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/brochures">
+                                        <a href="/pages/brochures.php">
                                             <span class="icon icon-brochure"></span>
                                             <span class="label">БРОШУРА</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/offers">
+                                        <a href="/pages/offers.php">
                                             <span class="icon icon-offers"></span>
                                             <span class="label">Спеціальні пропозиції</span>
                                         </a>

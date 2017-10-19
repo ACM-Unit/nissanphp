@@ -1,3 +1,4 @@
+<?php $title = 'БРОШЮРИ'?>
 <?php include("../header.html"); ?>
 <main id="container" role="main">
     <div class="grid-row bleed">

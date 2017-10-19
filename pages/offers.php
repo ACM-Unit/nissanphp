@@ -1,3 +1,4 @@
+<?php $title = 'Спеціальні пропозиції'?>
 <?php include("../header.html"); ?>
     <main id="container" role="main">
     <div class="grid-row bleed">
@@ -88,7 +89,7 @@ $models = $services->getModels();
                             <span></span>
                         </h2>
                         <p>
-                            <span>NISSAN <?php echo $model['image']; ?></span>
+                            <span>NISSAN <?php echo $model['name']; ?></span>
                         </p>
                     </div>
                     <div>
@@ -134,20 +135,20 @@ $models = $services->getModels();
                         </div>
                     </div>
                     <ul class="cta-list">
-    <?php if ($model['name'] == 'micra') { ?>
+                        <?php if ($model['name'] == 'micra') { ?>
                             <li><a href="/car-models/micra#offer" title="ПОДИВИТИСЬ ПРОПОЗИЦІЇ">ПОДИВИТИСЬ
                                     ПРОПОЗИЦІЇ</a></li>
-    <?php } else {?>
-                            <li><a href="https://www.nissan.ua/vehicles/new-vehicles/${model.name}/model-offers.html"
+                        <?php } else { ?>
+                            <li><a href="https://www.nissan.ua/vehicles/new-vehicles/<?php echo $model['name']; ?>/model-offers.html"
                                    target="_blank" title="ПОДИВИТИСЬ ПРОПОЗИЦІЇ">ПОДИВИТИСЬ ПРОПОЗИЦІЇ</a></li>
-                        <? }?>
-                        <li><a href="${model.pricelist}" title="Прайс-лист" target="_blank">Прайс-лист</a></li>
+                        <? } ?>
+                        <li><a href="<?php echo $model['pricelist']; ?>" title="Прайс-лист" target="_blank">Прайс-лист</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-    </c:forEach>
+<? } ?>
     </div>
     </div>
     </div>
@@ -166,13 +167,13 @@ $models = $services->getModels();
                                 </div>
                                 <ul>
                                     <li>
-                                        <a href="/test-drive">
+                                        <a href="/pages/test-drive.php">
                                             <span class="icon icon-testdrive"></span>
                                             <span class="label">ТЕСТ-ДРАЙВ</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/brochures">
+                                        <a href="/pages/brochures.php">
                                             <span class="icon icon-brochure"></span>
                                             <span class="label">БРОШУРА</span>
                                         </a>

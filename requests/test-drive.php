@@ -1,24 +1,34 @@
 <?php
+$from = "nissan-sumy@1gb.ua";
 $to  = "nissan-sumy@ukr.net" ;
+$subj = "Test";
 
-$subject = "Test";
+$what = ' 
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Заявка на тест-драйв</h2>
 
-$message = ' 
-<html> 
-    <head> 
-        <title>Birthday Reminders for August</title> 
-    </head> 
-    <body> 
-        <p>Here are the birthdays upcoming in August!</p> 
-    </body> 
+<p><a href="http://nissan-sumy.com.ua"><img alt="" src="http://nissan-sumy.com.ua/images/logo.png" style="float:left; height:73px; width:60px" /></a><strong>&nbsp;&nbsp; </strong>${title}<strong> ${lastname} ${firstname} </strong>оформила заявку на тест драйв в нашому салоні</p>
+
+<p><strong>&nbsp;&nbsp; Марка авто:&nbsp; </strong>Nissan ${modelname}</p>
+
+<p>&nbsp;</p>
+
+<hr />
+<p><strong>Данні для зворотнього звязку:</strong></p>
+
+<p><strong>телефон:</strong> ${phone}</p>
+
+<p><strong>e-mail:</strong> ${email}</p>
+
+</body>
 </html>';
+    mail($to, $subj, $what,
+        "From: $from
+Reply-To: $from
+Content-Type: text/html; charset=windows-1251
+Content-Transfer-Encoding: 8bit"
+    );
 
-$headers  = "Content-type: text/html; charset=utf-8 \r\n";
-$headers .= "From: Birthday Reminder <info@nissan-sumy.com>\r\n";
-try {
-      mail($to, $subject, $message, $headers);
-} catch (Exception $e) {
-    echo 'Поймано исключение: ',  $e->getMessage(), "\n";
-
-}
 ?>

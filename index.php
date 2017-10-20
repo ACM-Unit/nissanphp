@@ -116,7 +116,7 @@
                                                 <div class="vehicle-link ">
                                                     <div class="header-group">
                                                         <h3 class="car-title">
-                                                            <a href="/car-models/<?php echo $model['name']; ?>"
+                                                            <a href="/car-models/<?php echo $model['name']; ?>.php"
                                                                data-adobe-tagging="vehicles|new|<?php echo $model['name']; ?>"><?php echo $model['name']; ?></a>
 
                                                         </h3>
@@ -124,7 +124,7 @@
                                                             <?php echo $model['tagline']; ?>
                                                         </p>
                                                         <div class="row starting-price">
-                                                            <div class="c_184 <%-- show-full-price--%>" <%--data-price-currency="грн" data-defer="false" data-price-code="" data-price-disclaimer="" data-price-description="" data-price-vehicle-disabled="false" data-tax="" data-model-code="${model.modelcode}" data-model-path="/nissan/ua/uk/${model.modelcode}" data-model-grade="" data-model-version="" data-extra-info-path-suffix="https://www.nissan.ua/content/nissan/uk_UA/cars/${model.name}.html" data-tooltip-popup-disabled="false" data-force-display-type="msrp" data-manual-price-formatting="true" data-fuel-consumption-disclaimer-label="" data-co2-emissions-disclaimer-label="" data-efficiency-disclaimer-label=""--%>>
+                                                            <div class="c_184 <%-- show-full-price--%>" <%--data-price-currency="грн" data-defer="false" data-price-code="" data-price-disclaimer="" data-price-description="" data-price-vehicle-disabled="false" data-tax="" data-model-code="${model.modelcode}" data-model-path="/nissan/ua/uk/${model.modelcode}" data-model-grade="" data-model-version="" data-extra-info-path-suffix="https://www.nissan.ua/content/nissan/uk_UA/cars/${model.name}.html" data-tooltip-popup-disabled="false" data-force-display-type="msrp" data-manual-price-formatting="true" data-fuel-consumption-disclaimer-label="" data-co2-emissions-disclaimer-label="" data-efficiency-disclaimer-label=""--%>
                                                             <ul class="prices">
                                                                 <li class="msrp">
                                                                     <div class="content show">
@@ -167,7 +167,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <a href="/car-models/<?php echo $model['name']; ?>"
+                                                <a href="/car-models/<?php echo $model['name']; ?>.php"
                                                    data-adobe-tagging="vehicles|new|<?php echo $model['name']; ?>"
                                                    class="media-view" data-alt="">
                                                         <span class="picture-element" data-alt="">
@@ -198,7 +198,7 @@
                                                          </span>
                                                 </a>
                                             </div>
-                                            <a class="primary-cta" href="/car-models/<?php echo $model['name']; ?>"
+                                            <a class="primary-cta" href="/car-models/<?php echo $model['name']; ?>.php"
                                                data-adobe-tagging="vehicles|new|<?php echo $model['name']; ?>"
                                                target="_self">
                                                 детальніше</a>
@@ -242,7 +242,7 @@
                                             <div class="vehicle-link ">
                                                 <div class="header-group">
                                                     <h3 class="car-title">
-                                                        <a href="/car-models/<?php echo $model['name']; ?>"
+                                                        <a href="/car-models/<?php echo $model['name']; ?>.php"
                                                            data-adobe-tagging="vehicles|new|<?php echo $model['name']; ?>"><?php echo $model['name']; ?></a>
                                                     </h3>
                                                     <p class="row vehicle-strapline">
@@ -262,7 +262,7 @@
                                                         data-manual-price-formatting="true"
                                                         data-fuel-consumption-disclaimer-label=""
                                                         data-co2-emissions-disclaimer-label=""
-                                                        data-efficiency-disclaimer-label=""--%>>
+                                                        data-efficiency-disclaimer-label=""--%>
                                                         <ul class="prices">
                                                             <li class="msrp">
                                                                 <div class="content show">
@@ -305,7 +305,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="/car-models/<?php echo $model['name']; ?>"
+                                            <a href="/car-models/<?php echo $model['name']; ?>.php"
                                                data-adobe-tagging="vehicles|new|<?php echo $model['name']; ?>"
                                                class="media-view" data-alt="">
                                                          <span class="picture-element" data-alt="">
@@ -336,7 +336,7 @@
                                                          </span>
                                             </a>
                                         </div>
-                                        <a class="primary-cta" href="/car-models/<?php echo $model['name']; ?>"
+                                        <a class="primary-cta" href="/car-models/<?php echo $model['name']; ?>.php"
                                            data-adobe-tagging="vehicles|new|<?php echo $model['name']; ?>"
                                            target="_self">
                                             детальніше</a>

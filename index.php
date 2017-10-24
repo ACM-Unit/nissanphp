@@ -66,7 +66,9 @@
                     </object>
                 </a>
             </li>
-
+            <li>
+                <a href="https://www.nissan.ua/ownership/maintenance-repair.html#promo"><img src="/images/7.jpg"/></a>
+            </li>
             <li>
                 <a href="https://www.nissan.ua/vehicles/new-vehicles/juke/model-offers.html#combat"><img
                             src="/images/2.jpg"/></a>
@@ -116,7 +118,7 @@
                                                 <div class="vehicle-link ">
                                                     <div class="header-group">
                                                         <h3 class="car-title">
-                                                            <a href="/car-models/<?php echo $model['name']; ?>.php"
+                                                            <a href="/car-models/<?php echo $model['url']; ?>"
                                                                data-adobe-tagging="vehicles|new|<?php echo $model['name']; ?>"><?php echo $model['name']; ?></a>
 
                                                         </h3>
@@ -167,7 +169,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <a href="/car-models/<?php echo $model['name']; ?>.php"
+                                                <a href="/car-models/<?php echo $model['url']; ?>"
                                                    data-adobe-tagging="vehicles|new|<?php echo $model['name']; ?>"
                                                    class="media-view" data-alt="">
                                                         <span class="picture-element" data-alt="">
@@ -198,7 +200,7 @@
                                                          </span>
                                                 </a>
                                             </div>
-                                            <a class="primary-cta" href="/car-models/<?php echo $model['name']; ?>.php"
+                                            <a class="primary-cta" href="/car-models/<?php echo $model['url']; ?>"
                                                data-adobe-tagging="vehicles|new|<?php echo $model['name']; ?>"
                                                target="_self">
                                                 детальніше</a>
@@ -242,7 +244,7 @@
                                             <div class="vehicle-link ">
                                                 <div class="header-group">
                                                     <h3 class="car-title">
-                                                        <a href="/car-models/<?php echo $model['name']; ?>.php"
+                                                        <a href="/car-models/<?php echo $model['url']; ?>"
                                                            data-adobe-tagging="vehicles|new|<?php echo $model['name']; ?>"><?php echo $model['name']; ?></a>
                                                     </h3>
                                                     <p class="row vehicle-strapline">
@@ -305,7 +307,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="/car-models/<?php echo $model['name']; ?>.php"
+                                            <a href="/car-models/<?php echo $model['url']; ?>"
                                                data-adobe-tagging="vehicles|new|<?php echo $model['name']; ?>"
                                                class="media-view" data-alt="">
                                                          <span class="picture-element" data-alt="">
@@ -336,7 +338,7 @@
                                                          </span>
                                             </a>
                                         </div>
-                                        <a class="primary-cta" href="/car-models/<?php echo $model['name']; ?>.php"
+                                        <a class="primary-cta" href="/car-models/<?php echo $model['url']; ?>"
                                            data-adobe-tagging="vehicles|new|<?php echo $model['name']; ?>"
                                            target="_self">
                                             детальніше</a>

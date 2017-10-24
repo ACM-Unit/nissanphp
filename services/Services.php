@@ -6,7 +6,7 @@ class Services
     function getModels() {
         $mysqli = new DbConnection();
         $models = array();
-        if ($result = mysqli_query($mysqli->getdbconnect(), "SELECT * FROM model")) {
+        if ($result = mysqli_query($mysqli->getdbconnect(), "SELECT * FROM model order by carmodel_id")) {
             while($tmp = $result->fetch_assoc()) {
                 $models [] = $tmp;
             }
